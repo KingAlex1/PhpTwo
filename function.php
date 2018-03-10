@@ -3,7 +3,7 @@
 function task1($array, $bool)
 {
     for ($i = 0; $i < count($array); $i++) {
-        echo $array[$i];
+        echo "<p>".$array[$i]."<p>";
         echo "<br>";
     }
     if ($bool) {
@@ -100,7 +100,7 @@ $task5 = function ($str) {
 
 function task5_1($task5)
 {
-    var_dump($task5);
+    ($task5 == true ) ? print_r("Слово является полиндромом") : print_r("Не полиндром") ;
 }
 
 function task6()
